@@ -1,0 +1,32 @@
+main {
+    display: flex;
+     flex-direction: row;
+    flex: auto;
+    background-color:blanchedalmond;
+    border-radius: 30px; 
+    }
+    
+     body {
+        flex-direction: column;
+        
+        
+    }
+    
+    article{
+        flex: 2;
+        overflow-y: auto;
+        
+    }
+    aside{
+        flex: 1;    
+        overflow-y: auto;
+        background-color: rgb(33, 30, 26);
+        border-radius: 26px;
+    }
+    
+    header {
+       margin: auto; 
+       background-color:beige;
+       border-radius: 20px;
+    
+    }
