@@ -133,6 +133,8 @@ header li a {
 }
 header li.logo {
 	font-size: 36px;
+    padding-right: 700px;
+    padding-left: 50px;
 }
 header a {
 	text-decoration: none;
