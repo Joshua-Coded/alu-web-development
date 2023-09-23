@@ -18,4 +18,4 @@ The assignment for this module involves creating a website as a school project. 
 
 ## Final Result
 
-![1f4cd63ecc3a8c03b0f4309b74aca179e225aabf](https://github.com/Ronnie5562/alu-web-development/assets/110787129/0d7e583a-637f-448d-97ea-f2bad56727d2)
+![1f4cd63ecc3a8c03b0f4309b74aca179e225aabf](https://github.com/Joshbam-joshwilly/alu-web-development/issues/1#issue-1909927739)
