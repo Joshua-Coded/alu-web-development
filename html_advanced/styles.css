@@ -1,0 +1,354 @@
+body{
+    font-family:"Source Sans Pro";
+    font-style:normal;
+}
+header{
+    display: flex;
+    flex: auto;
+    background-image: url(./img/background.png);
+    flex-direction: row;
+    padding: 2% 5% 2% 5%;
+    filter:grayscale(100%);
+    position:absolute;
+    left:-0.025%;
+    right:-0.025%;
+    top: 0%;
+    bottom: -26.48%;
+}
+
+header .logo{
+    flex: 2;
+    z-index: 1;
+}
+
+header .page{
+    flex: 0.5;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 15px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+header .page a {
+  margin-left: 1%;
+  margin-right: 1%;
+  text-decoration: none;
+  color: white;
+}
+    /* position: absolute; */
+
+.banner{
+  left: 20%;
+  right: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -2.6rem;
+  background-blend-mode: color;
+  background: rgba(0, 0, 0, 1);
+  background: radial-gradient(
+    100% 85.9% at 50% -8%,
+    rgba(104, 120, 150, 0) 0%,
+    #071629 100%
+  );
+  color: white;
+}
+.Schooled {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+.title {
+    height: 151px;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+.words {
+  height: 20px;
+  position: relative;
+  margin-top: -7%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 38%;
+  margin-right: 38%;
+}
+
+.round_button {
+  background: #c271ff;
+  border-radius: 25px;
+  border: none;
+  padding: 0.7rem;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+  align-self: center;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.Pros {
+    display: flex;
+    flex-direction: column;
+  }
+
+.secondary_colour {
+  color: #c271ff;
+}
+
+.highlight{
+  position: relative;
+  align-self: center;
+  padding: 2rem;
+  font-weight: 300;
+  line-height: 40px;
+}
+.highlight .secondary_colour {
+  font-weight: 700;
+}
+.Pros_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Pros_card {
+  width: 19%;
+  /* padding: 1.5% 4% 1.5% 4%;*/
+  margin-bottom: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Pros img {
+  border-radius: 50%;
+  max-width: 80%;
+}
+.Pros_card h3 {
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+.Pros_card p {
+  font-style: italic;
+  text-align: center;
+  font-size: 16px;
+}
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: -8px;
+}
+
+.quote {
+  /* position: absolute; */
+  background-color: #c271ff;
+  padding: 6%;
+}
+.quote_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-left: 20%;
+  padding-right: 13%;
+}
+.quote_block img {
+  width: 160px;
+  height: 160px;
+  margin-right: 3rem;
+}
+.quote_block blockquote {
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 34px;
+  margin-left: 0;
+}
+.quote_block .presenter_name {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 0;
+}
+.quote_block .weather {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 34px;
+  margin-top: 0;
+}
+.videos {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.videos h1,
+.membership h1,
+.faq h1 {
+  text-align: center;
+}
+.videos h1 {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.faq h1 {
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 75px;
+}
+.videos_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.video_card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 15%;
+}
+.video_card h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 0.1rem;
+}
+.video_card .video_desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(7, 22, 41, 0.501584);
+}
+
+.video_card .author {
+  display: flex;
+  align-items: center;
+}
+.author img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.author h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  /* identical to box height, or 193% */
+  color: #c271ff;
+  margin-left: 1rem;
+}
+.rating_duration {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.duration {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  /* identical to box height, or 193% */
+  text-align: right;
+  color: #c271ff;
+}
+.membership {
+  color: white;
+  background: #071629;
+  padding: 2rem;
+}
+.membership .secondary-color,
+.videos .secondary-color {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+}
+.membership h1 {
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.membership button {
+  left: 42%;
+}
+.membership_lists {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.membership_card {
+  display: flex;
+  flex-direction: column;
+  max-width: 12%;
+  align-items: center;
+  text-align: center;
+}
+.membership_card h2 {
+  margin-bottom: 0.1rem;
+}
+
+.faq_lists {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.faq_lists2 {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+.faq_question {
+  display: flex;
+  flex: 50%;
+  flex-direction: column;
+  width: 50%;
+  padding: 5%;
+}
+footer {
+  background: black;
+  padding: 1rem;
+  margin: -8px;
+}
+.footer_section {
+  display: flex;
+  flex-direction: column;
+}
+.footer_nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 8rem 4rem 8rem;
+}
+
+.footer_nav div a {
+  margin-left: 0.4rem;
+  margin-right: 0.5rem;
+}
+
+.footer_section p {
+  color: white;
+  opacity: 0.35;
+  text-align: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
